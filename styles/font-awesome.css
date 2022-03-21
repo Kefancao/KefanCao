@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "FontAwesomeBrand";
+	font-weight: normal;
+	font-style : normal;
+			src : url("../fonts/fa-brands-400.woff2") format("woff2"),
+				 url("../fonts/fa-brands-400.woff") format("woff"),
+				 url("../fonts/fa-brands-400.ttf") format("truetype"),
+				 url("../fonts/fa-brands-400.svg#fontawesomeregular") format("svg");
+	}
+
+	@font-face {
+		font-family: "FontAwesomeRegular";
+		font-weight: normal;
+		font-style : normal;
+			   src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+			   src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+					 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+					 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+					 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+					 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+	  }
+	
+.font-awesome-c:before {
+	font-family: FontAwesomeBrand;
+	content: "\43";
+}
+
+.font-awesome-py:before{
+	font-family: FontAwesomeBrand;
+	content: "\f3e2";
+}
+
+.font-awesome-js:before{
+	font-family: FontAwesomeBrand;
+	content: "\f3b9";
+}
+
+.font-awesome-hs:before{
+	/* font-family: FontAwesomeRegular; */
+	content: "λ";
+}
+.font-awesome-rlang:before{
+	font-family: FontAwesomeBrand;
+	content: "\f4f7";
+}
