@@ -178,6 +178,10 @@
 .socicon-blackberry:before {
   content: "\e951";
 }
+#straussLogo{
+  width: 240px;
+  height: 72px;
+}
 .socicon-wickr:before {
   content: "\e952";
 }

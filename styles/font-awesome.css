@@ -25,6 +25,11 @@
 	content: "\43";
 }
 
+.font-awesome-go:before{
+	font-family: FontAwesomeBrand;
+	content: "\e40f";
+}
+
 .font-awesome-py:before{
 	font-family: FontAwesomeBrand;
 	content: "\f3e2";
